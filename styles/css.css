@@ -8,7 +8,7 @@ box-sizing: border-box;}
 
 .header {
     width: 100%;
-    background-color: #5b0a0a; /* vino */
+    background-color: #5b0a0a;
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -17,14 +17,13 @@ box-sizing: border-box;}
     z-index: 1000;
 }
 
-/* Cámara + h2 alineados a la izquierda */
 .logo img {
     width: 90px;
     height: auto;
-    margin-right: 15px; /* acerca el h2 a la cámara */
+    margin-right: 15px;
 }
 
-/* Pone el menú al lado derecho */
+
 .menubar {
     margin-left: auto; 
     display: flex;
@@ -37,7 +36,7 @@ box-sizing: border-box;}
     font-size: 18px;
 }
 
-/* Estilo del nombre */
+
 .header h2 {
     color: white;
     font-size: 28px;
@@ -47,7 +46,7 @@ box-sizing: border-box;}
 .photos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0; /* pegadas */
+    gap: 0;
 }
 
 .photos img {
@@ -57,7 +56,7 @@ box-sizing: border-box;}
     display: block;
 }
 
-/* Responsive: celular */
+
 @media (max-width: 768px) {
     .photos {
         grid-template-columns: repeat(2, 1fr);
@@ -90,7 +89,7 @@ box-sizing: border-box;}
     margin-left: auto;
 }
 
-/* Vista móvil */
+
 @media (max-width: 768px) {
 
     .menubar {
